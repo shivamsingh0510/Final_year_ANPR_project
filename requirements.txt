@@ -3,3 +3,5 @@ numpy
 pytesseract
 streamlit
 pandas
+ultralytics
+re
