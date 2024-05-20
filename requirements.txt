@@ -4,4 +4,3 @@ pytesseract
 streamlit
 pandas
 ultralytics
-re
