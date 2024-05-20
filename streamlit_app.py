@@ -8,8 +8,8 @@ import re
 
 # Set Tesseract command to the correct path
 # Set Tesseract command to default path in Google Colab
-# pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract'
+pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'
+# pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files/Tesseract-OCR/tesseract'
 
 # Load the custom-trained YOLOv8 model
 model = YOLO('best.pt')
